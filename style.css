@@ -1,0 +1,71 @@
+header{
+    background-color: #EDF2F4;
+}
+.first{
+    background-color: #EDF2F4;
+}
+.second{
+    background-color: White;
+}
+.third{
+    background-color:#EFFAFE;
+}
+
+.fourth {
+    background-color: #4cc0eb;
+}
+.last{
+    background-color:#202020;
+}
+footer a{
+    text-decoration: none;
+    padding-top: 10px;
+}
+.active{
+    border-bottom: 3px solid #E63946;
+}
+a{
+    color:#FED4D3
+}
+
+/* .swiper-slide {
+    text-align: center;
+    width: auto;
+  } */
+/* .swiper {
+    width: 100%;
+    height: auto;
+  } */
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
